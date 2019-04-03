@@ -5,8 +5,8 @@ First commit is a streaming demo; data is read from csv file, transformed, and s
 Final version is a batch demo; data is read from HBase with Phoenix layer, transformed, and sent to Cassandra.
 The goal was to calculate a population by country.
 Resulting numbers are not correct - given that initial data varies in census year, and that some entries are missing - but the whole data pipeline should be understandable and easily reusable.
-Upper window in Terminator terminal is Phoenix view, lower left window is Hbase shell, and lower right windows is Cassandra shell.
-The data in Cassandra corresponds with direct SQL query made to Phoenix through Squirrel.
+Upper window in Terminator terminal is Phoenix view, lower left window is Hbase shell, and lower right window is Cassandra shell.
+The data in Cassandra corresponds to direct SQL query made to Phoenix through Squirrel.
 
 ### Dataset
 
