@@ -20,7 +20,6 @@ import static org.apache.flink.api.common.typeinfo.BasicTypeInfo.*;
  *
  * data batch transport from HBase to Cassandra
  *
- *
  */
 @SuppressWarnings("serial")
 public class CitiesETL {

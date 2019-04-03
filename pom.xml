@@ -5,35 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.matko.soric.flink</groupId>
-    <artifactId>flink.word.count</artifactId>
+    <artifactId>flink.country.population</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
 
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-streaming-java_2.11</artifactId>
-            <version>1.7.2</version>
-<!--            <scope>provided</scope>-->
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.flink</groupId>
             <artifactId>flink-java</artifactId>
             <version>1.7.2</version>
-<!--            <scope>provided</scope>-->
         </dependency>
 
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-core</artifactId>
-            <version>1.7.2</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-streaming-scala -->
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-streaming-scala_2.11</artifactId>
             <version>1.7.2</version>
         </dependency>
 
@@ -81,7 +66,7 @@
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>libs/</classpathPrefix>
                             <mainClass>
-                                flinkcountrycount.SocketWindowWordCount
+                                flink.country.count.CitiesETL
                             </mainClass>
                         </manifest>
                     </archive>
